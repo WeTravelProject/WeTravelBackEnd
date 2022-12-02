@@ -9,10 +9,10 @@ node {
  properties([disableConcurrentBuilds()])
  try {
    namespace = "default"
-   projectId = "c-kzd9h:p-vd76s"
-   deployment = "we-travel-service"
+   projectId = "c-nbmtj:p-dkxjr"
+   deployment = "we-travel-backend"
    dockerFile = "Dockerfile"
-   imageName = "we-travel"
+   imageName = "we-travel-backend"
    registry = "chjplove"
    version = "latest"
    stage('Checkout Branch') {
