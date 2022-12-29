@@ -9,7 +9,7 @@ node {
  properties([disableConcurrentBuilds()])
  try {
    namespace = "default"
-   projectId = "c-nbmtj:p-dkxjr"
+   projectId = "c-vnb8t:p-l4wgf"
    deployment = "we-travel-backend"
    dockerFile = "Dockerfile"
    imageName = "we-travel-backend"
